@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github"
-          fetch="https://github.com/subhajeetmuhuri"
+          fetch="https://github.com/aminuddinihsan20"
           revision="lineage-18.1" />
   
  <!-- Trees -->
