@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <remote  name="s" fetch="https://github.com/aminuddinihsan20" />
+ <remote name="github" fetch="https://github.com/silont-project/kernel_xiaomi_surya" />
+  
+ <!-- Trees -->
+  <project name="device_surya" path="device/xiaomi/surya" remote="s" revision="12" />
+  <project name="kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="marin" />
+  <project name="vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="s" revision="12" />
+  
+  </manifest>
