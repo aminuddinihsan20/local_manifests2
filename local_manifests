@@ -2,11 +2,10 @@
 <manifest>
 
  <remote  name="s" fetch="https://github.com/aminuddinihsan20" />
- <remote name="github" fetch="https://github.com/silont-project/kernel_xiaomi_surya" />
   
  <!-- Trees -->
-  <project name="device_xiaomi_surya_1" path="device/xiaomi/surya" remote="s" revision="12.1" />
-  <project name="kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="next" />
-  <project name="vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="s" revision="12" />
+  <project name="device_xiaomi_surya" path="device/xiaomi/surya" remote="s" revision="evoxa13" />
+  <project name="kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="s" revision="lineage-20.0" />
+  <project name="vendor_xiaomi_surya1" path="vendor/xiaomi/surya" remote="s" revision="lineage-20.0" />
   
   </manifest>
