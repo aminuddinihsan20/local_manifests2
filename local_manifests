@@ -2,10 +2,11 @@
 <manifest>
 
  <remote  name="s" fetch="https://github.com/aminuddinihsan20" />
+ <remote  name="v" fetch="https://github.com/subhajeetmuhuri" />
   
  <!-- Trees -->
-  <project name="device_xiaomi_surya" path="device/xiaomi/surya" remote="s" revision="evoxa13" />
-  <project name="kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="s" revision="lineage-20.0" />
-  <project name="vendor_xiaomi_surya1" path="vendor/xiaomi/surya" remote="s" revision="lineage-20.0" />
+  <project name="device_xiaomi_surya" path="device/xiaomi/surya" remote="s" revision="banana" />
+  <project name="android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="s" revision="lineage-20.0" />
+  <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="v" revision="lineage-20" />
   
   </manifest>
