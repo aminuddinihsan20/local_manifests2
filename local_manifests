@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote  name="s" fetch="https://github.com/aminuddinihsan20" />
- <remote  name="v" fetch="https://github.com/subhajeetmuhuri" />
+ <remote  name="ihsan" 
+         fetch="https://github.com/aminuddinihsan20" />
+ <remote  name="kenny" 
+         fetch="https://github.com/subhajeetmuhuri" />
   
  <!-- Trees -->
-  <project name="device_xiaomi_surya" path="device/xiaomi/surya" remote="s" revision="banana" />
-  <project name="android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="s" revision="lineage-20.0" />
-  <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="v" revision="lineage-20" />
+  <project name="device_xiaomi_surya" path="device/xiaomi/surya" remote="ihsan" revision="new" />
+  <project name="kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="ihsan" revision="lineage-20.0" />
+  <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="kenny" revision="lineage-20" />
   
   </manifest>
